@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jam Fall 2026", "Game Jam Fall 2026.csproj", "{C0732E39-E940-403A-A02F-E7D5091AD9E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Out-Of-Luck", "Out-Of-Luck.csproj", "{C0732E39-E940-403A-A02F-E7D5091AD9E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
