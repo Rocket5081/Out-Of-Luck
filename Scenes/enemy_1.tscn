@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://tlosnw0ma3l6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lxyyf"]
+
+[node name="Enemy1" type="CharacterBody3D" unique_id=1831599995]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=855546884]
+shape = SubResource("BoxShape3D_lxyyf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=542715921]
+mesh = SubResource("BoxMesh_lxyyf")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=758818222]
+path_postprocessing = 1

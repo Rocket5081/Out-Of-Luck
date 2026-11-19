@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cs3h31u3gecqf"]
+
+[ext_resource type="Texture2D" uid="uid://drrgpnmpr107x" path="res://Assets/Floors/BasicFloorIMG.png" id="1_e7reg"]
+[ext_resource type="Texture2D" uid="uid://2is5r240dwgh" path="res://Assets/Floors/BasicFloorIMG_normals.png" id="2_17fno"]
+
+[resource]
+resource_name = "Floor"
+cull_mode = 2
+albedo_texture = ExtResource("1_e7reg")
+normal_enabled = true
+normal_scale = 1.2
+normal_texture = ExtResource("2_17fno")
+texture_filter = 2
+metadata/_gltf_primary_texture_coord = 0

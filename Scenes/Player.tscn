@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://yuhgcjiocyhs"]
+
+[ext_resource type="Script" uid="uid://bmc1b1y6a20id" path="res://Scripts/Player.cs" id="1_rpqav"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lxyyf"]
+height = 2.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tryb0"]
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.05
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lc1oi"]
+albedo_color = Color(0, 0.4627451, 1, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_rylvo"]
+material = SubResource("StandardMaterial3D_lc1oi")
+
+[node name="Player" type="CharacterBody3D" unique_id=1361991306 node_paths=PackedStringArray("cameraPivot", "camera", "mesh") groups=["Player"]]
+script = ExtResource("1_rpqav")
+cameraPivot = NodePath("CameraPivot")
+camera = NodePath("CameraPivot/SpringArm3D/Camera3D")
+mesh = NodePath("Mesh")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1978531866]
+shape = SubResource("CapsuleShape3D_lxyyf")
+
+[node name="Mesh" type="Node3D" parent="." unique_id=107759215]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Mesh" unique_id=1579299737]
+material_overlay = SubResource("StandardMaterial3D_tryb0")
+mesh = SubResource("CapsuleMesh_rylvo")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Mesh" unique_id=429399461]
+light_color = Color(1, 0.67058825, 0, 1)
+light_energy = 15.0
+shadow_enabled = true
+spot_range = 20.0
+
+[node name="CameraPivot" type="Node3D" parent="." unique_id=1500140018]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot" unique_id=1784408914]
+transform = Transform3D(1, 0, 0, 0, 0.88699466, 0.46177965, 0, -0.46177965, 0.88699466, 0, 0, 0)
+spring_length = 5.0
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D" unique_id=1608807941]

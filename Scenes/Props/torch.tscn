@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b862p2e8cdf88"]
+
+[ext_resource type="PackedScene" uid="uid://j1gvy6qqbql4" path="res://Assets/Props/Torch.glb" id="1_o1i38"]
+[ext_resource type="PackedScene" uid="uid://l6ksy0ir2f0b" path="res://Scenes/Props/flameParticles.tscn" id="2_s4017"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s4017"]
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.01
+
+[node name="Torch" type="Node3D" unique_id=1375533298]
+
+[node name="TorchMesh" parent="." unique_id=527355274 instance=ExtResource("1_o1i38")]
+transform = Transform3D(0.95105654, 0.309017, 0, -0.309017, 0.95105654, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Cylinder" parent="TorchMesh" index="0" unique_id=2049053458]
+material_overlay = SubResource("StandardMaterial3D_s4017")
+
+[node name="FlameVFX" parent="." unique_id=2079534160 instance=ExtResource("2_s4017")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20108128, 0.70243454, 0)
+
+[editable path="TorchMesh"]

@@ -1,0 +1,1384 @@
+[gd_scene format=3 uid="uid://djiff2gtau03y"]
+
+[ext_resource type="PackedScene" uid="uid://fpwmmuklv8ls" path="res://Assets/Props/testLargeCoinPile.glb" id="1_68snw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dq6ki"]
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.01
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_maym8"]
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.02
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
+size = Vector3(9, 2.2, 9)
+
+[node name="LargeCoinPile" type="Node3D" unique_id=1823041006]
+
+[node name="testLargeCoinPile" parent="." unique_id=242379427 instance=ExtResource("1_68snw")]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, 0.6845131, -2.4433684)
+
+[node name="GN Instance" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="0" unique_id=767286225]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance2" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="1" unique_id=390145039]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance3" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="2" unique_id=203165703]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance4" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="3" unique_id=2009587955]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance5" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="4" unique_id=1062795764]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance6" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="5" unique_id=162368395]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance7" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="6" unique_id=1317951401]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance8" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="7" unique_id=1328676151]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance9" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="8" unique_id=829883684]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance10" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="9" unique_id=1312573451]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance11" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="10" unique_id=1238177563]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance12" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="11" unique_id=1685905749]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance13" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="12" unique_id=482613278]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance14" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="13" unique_id=919285502]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance15" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="14" unique_id=318238458]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance16" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="15" unique_id=1429339063]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance17" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="16" unique_id=396143698]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance18" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="17" unique_id=1017224545]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance19" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="18" unique_id=1261154226]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance20" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="19" unique_id=2124931871]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance21" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="20" unique_id=1890851948]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance22" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="21" unique_id=1439257061]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance23" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="22" unique_id=670082020]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance24" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="23" unique_id=1155335149]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance25" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="24" unique_id=1016611601]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance26" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="25" unique_id=721123748]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance27" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="26" unique_id=650033741]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance28" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="27" unique_id=1484399577]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance29" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="28" unique_id=46442963]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance30" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="29" unique_id=182500665]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance31" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="30" unique_id=1788348279]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance32" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="31" unique_id=186752401]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance33" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="32" unique_id=1891195991]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance34" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="33" unique_id=1174783126]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance35" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="34" unique_id=1987000936]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance36" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="35" unique_id=1846355365]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance37" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="36" unique_id=2044805401]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance38" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="37" unique_id=783485310]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance39" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="38" unique_id=1986936040]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance40" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="39" unique_id=855036643]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance41" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="40" unique_id=2109505202]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance42" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="41" unique_id=1171153673]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance43" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="42" unique_id=1865929984]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance44" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="43" unique_id=2135214723]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance45" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="44" unique_id=1120676595]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance46" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="45" unique_id=1953940588]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance47" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="46" unique_id=1486820088]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance48" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="47" unique_id=1341575786]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance49" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="48" unique_id=1365312153]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance50" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="49" unique_id=656947832]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance51" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="50" unique_id=111163039]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance52" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="51" unique_id=596786456]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance53" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="52" unique_id=1829940702]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance54" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="53" unique_id=1823910472]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance55" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="54" unique_id=208261451]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance56" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="55" unique_id=1481169553]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance57" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="56" unique_id=1528976971]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance58" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="57" unique_id=1490894422]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance59" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="58" unique_id=678001262]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance60" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="59" unique_id=705671850]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance61" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="60" unique_id=1256175880]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance62" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="61" unique_id=2108583386]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance63" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="62" unique_id=1484402595]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance64" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="63" unique_id=2011564754]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance65" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="64" unique_id=981703221]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance66" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="65" unique_id=1236694435]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance67" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="66" unique_id=548366819]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance68" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="67" unique_id=1399015711]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance69" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="68" unique_id=2020131906]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance70" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="69" unique_id=35966736]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance71" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="70" unique_id=929949833]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance72" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="71" unique_id=1225621863]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance73" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="72" unique_id=1699417073]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance74" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="73" unique_id=872731011]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance75" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="74" unique_id=1047471635]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance76" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="75" unique_id=451355701]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance77" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="76" unique_id=1443715784]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance78" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="77" unique_id=1523690693]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance79" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="78" unique_id=592136138]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance80" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="79" unique_id=1956634635]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance81" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="80" unique_id=1457051161]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance82" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="81" unique_id=1092986791]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance83" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="82" unique_id=1848244286]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance84" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="83" unique_id=924470868]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance85" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="84" unique_id=1831067824]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance86" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="85" unique_id=1205924439]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance87" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="86" unique_id=809695012]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance88" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="87" unique_id=88705922]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance89" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="88" unique_id=1001354879]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance90" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="89" unique_id=1004218810]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance91" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="90" unique_id=186485721]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance92" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="91" unique_id=452684374]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance93" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="92" unique_id=1523146488]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance94" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="93" unique_id=1740758714]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance95" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="94" unique_id=1834958420]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance96" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="95" unique_id=2075710834]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance97" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="96" unique_id=1495333218]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance98" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="97" unique_id=1923310713]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance99" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="98" unique_id=389563761]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance100" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="99" unique_id=439350665]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance101" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="100" unique_id=286452800]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance102" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="101" unique_id=882958634]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance103" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="102" unique_id=997799604]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance104" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="103" unique_id=2126827571]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance105" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="104" unique_id=247522768]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance106" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="105" unique_id=1903723332]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance107" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="106" unique_id=608844725]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance108" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="107" unique_id=1971100867]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance109" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="108" unique_id=1451969553]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance110" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="109" unique_id=1789515283]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance111" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="110" unique_id=1793327114]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance112" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="111" unique_id=1733854695]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance113" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="112" unique_id=788659877]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance114" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="113" unique_id=193100566]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance115" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="114" unique_id=1549617907]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance116" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="115" unique_id=110830413]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance117" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="116" unique_id=1818295398]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance118" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="117" unique_id=2081323143]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance119" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="118" unique_id=612602329]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance120" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="119" unique_id=582022304]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance121" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="120" unique_id=2108588908]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance122" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="121" unique_id=1150673458]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance123" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="122" unique_id=1162994609]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance124" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="123" unique_id=1953630035]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance125" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="124" unique_id=419761158]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance126" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="125" unique_id=512038739]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance127" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="126" unique_id=28541174]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance128" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="127" unique_id=2054217113]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance129" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="128" unique_id=1385464317]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance130" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="129" unique_id=1310041073]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance131" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="130" unique_id=2141290879]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance132" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="131" unique_id=942371675]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance133" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="132" unique_id=1605306175]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance134" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="133" unique_id=1728714564]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance135" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="134" unique_id=768300084]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance136" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="135" unique_id=2063875981]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance137" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="136" unique_id=510796082]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance138" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="137" unique_id=2056862565]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance139" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="138" unique_id=1168788060]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance140" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="139" unique_id=1890695189]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance141" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="140" unique_id=1328834473]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance142" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="141" unique_id=2057481577]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance143" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="142" unique_id=1519651556]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance144" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="143" unique_id=1334211332]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance145" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="144" unique_id=1705359438]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance146" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="145" unique_id=1568755848]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance147" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="146" unique_id=1484305328]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance148" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="147" unique_id=2029607314]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance149" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="148" unique_id=1942959269]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance150" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="149" unique_id=1658439986]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance151" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="150" unique_id=1748739696]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance152" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="151" unique_id=474544846]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance153" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="152" unique_id=984003942]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance154" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="153" unique_id=1177911675]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance155" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="154" unique_id=692037400]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance156" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="155" unique_id=294909425]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance157" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="156" unique_id=518159556]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance158" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="157" unique_id=2101647932]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance159" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="158" unique_id=245085258]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance160" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="159" unique_id=971339035]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance161" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="160" unique_id=1925515838]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance162" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="161" unique_id=1549308154]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance163" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="162" unique_id=500532807]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance164" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="163" unique_id=342340444]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance165" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="164" unique_id=325592535]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance166" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="165" unique_id=1857293515]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance167" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="166" unique_id=1858618856]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance168" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="167" unique_id=1784017383]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance169" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="168" unique_id=1456701978]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance170" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="169" unique_id=915521009]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance171" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="170" unique_id=268746339]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance172" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="171" unique_id=1290492405]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance173" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="172" unique_id=681560069]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance174" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="173" unique_id=1280577115]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance175" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="174" unique_id=1011138122]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance176" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="175" unique_id=176575757]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance177" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="176" unique_id=1061704836]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance178" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="177" unique_id=137419146]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance179" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="178" unique_id=1065955906]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance180" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="179" unique_id=293132998]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance181" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="180" unique_id=1808240960]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance182" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="181" unique_id=375208192]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance183" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="182" unique_id=1436685925]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance184" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="183" unique_id=1646419497]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance185" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="184" unique_id=837392398]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance186" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="185" unique_id=1239654302]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance187" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="186" unique_id=833035397]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance188" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="187" unique_id=1409034032]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance189" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="188" unique_id=1677884065]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance190" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="189" unique_id=1936433698]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance191" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="190" unique_id=1301088959]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance192" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="191" unique_id=873527939]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance193" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="192" unique_id=902214928]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance194" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="193" unique_id=1828737625]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance195" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="194" unique_id=1688307420]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance196" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="195" unique_id=1709841303]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance197" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="196" unique_id=1820506356]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance198" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="197" unique_id=1052830768]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance199" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="198" unique_id=616207537]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance200" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="199" unique_id=1711800167]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance201" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="200" unique_id=1281633771]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance202" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="201" unique_id=717145825]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance203" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="202" unique_id=498306737]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance204" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="203" unique_id=253132822]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance205" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="204" unique_id=1176042015]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance206" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="205" unique_id=631054922]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance207" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="206" unique_id=947716914]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance208" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="207" unique_id=704601868]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance209" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="208" unique_id=1473505613]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance210" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="209" unique_id=528957516]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance211" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="210" unique_id=517104950]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance212" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="211" unique_id=1893551503]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance213" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="212" unique_id=1764426989]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance214" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="213" unique_id=1974967720]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance215" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="214" unique_id=1180209636]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance216" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="215" unique_id=414247042]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance217" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="216" unique_id=991504982]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance218" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="217" unique_id=1039357516]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance219" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="218" unique_id=756396905]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance220" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="219" unique_id=2008946864]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance221" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="220" unique_id=129293889]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance222" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="221" unique_id=2057160756]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance223" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="222" unique_id=92027824]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance224" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="223" unique_id=891794769]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance225" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="224" unique_id=1796859284]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance226" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="225" unique_id=1491505070]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance227" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="226" unique_id=1657730289]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance228" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="227" unique_id=207310090]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance229" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="228" unique_id=89727646]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance230" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="229" unique_id=1152426387]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance231" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="230" unique_id=1928422942]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance232" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="231" unique_id=959035341]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance233" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="232" unique_id=493566690]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance234" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="233" unique_id=87415393]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance235" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="234" unique_id=1509591959]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance236" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="235" unique_id=2077397236]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance237" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="236" unique_id=1507064564]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance238" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="237" unique_id=731315474]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance239" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="238" unique_id=1271882982]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance240" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="239" unique_id=318830623]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance241" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="240" unique_id=850359220]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance242" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="241" unique_id=1907946985]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance243" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="242" unique_id=482726020]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance244" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="243" unique_id=1686301748]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance245" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="244" unique_id=553996574]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance246" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="245" unique_id=1975201534]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance247" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="246" unique_id=1440339231]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance248" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="247" unique_id=1549826553]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance249" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="248" unique_id=76693475]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance250" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="249" unique_id=398132283]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance251" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="250" unique_id=1038378451]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance252" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="251" unique_id=893088552]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance253" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="252" unique_id=47683409]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance254" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="253" unique_id=1111340585]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance255" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="254" unique_id=1247730060]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance256" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="255" unique_id=1388464239]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance257" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="256" unique_id=199894827]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance258" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="257" unique_id=1444156813]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance259" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="258" unique_id=925435371]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance260" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="259" unique_id=196548211]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance261" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="260" unique_id=959240555]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance262" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="261" unique_id=1365365522]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance263" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="262" unique_id=877244637]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance264" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="263" unique_id=954677371]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance265" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="264" unique_id=1986122902]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance266" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="265" unique_id=1713749102]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance267" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="266" unique_id=1311251126]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance268" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="267" unique_id=2139266287]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance269" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="268" unique_id=921081562]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance270" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="269" unique_id=1939924971]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance271" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="270" unique_id=946244889]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance272" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="271" unique_id=1880644503]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance273" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="272" unique_id=1693222477]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance274" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="273" unique_id=1439626176]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance275" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="274" unique_id=1393559280]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance276" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="275" unique_id=928227424]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance277" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="276" unique_id=879522687]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance278" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="277" unique_id=1570584273]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance279" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="278" unique_id=432889753]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance280" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="279" unique_id=391899610]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance281" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="280" unique_id=561553088]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance282" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="281" unique_id=1514748993]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance283" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="282" unique_id=28705275]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance284" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="283" unique_id=1375598383]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance285" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="284" unique_id=1082318210]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance286" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="285" unique_id=1516261130]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance287" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="286" unique_id=2006375795]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance288" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="287" unique_id=1926711413]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance289" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="288" unique_id=427067676]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance290" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="289" unique_id=601556173]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance291" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="290" unique_id=1235789635]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance292" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="291" unique_id=597563422]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance293" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="292" unique_id=921458368]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance294" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="293" unique_id=1721166464]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance295" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="294" unique_id=1122739683]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance296" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="295" unique_id=538796413]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance297" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="296" unique_id=1230057598]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance298" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="297" unique_id=1382492475]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance299" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="298" unique_id=1297427116]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance300" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="299" unique_id=534486100]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance301" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="300" unique_id=875316188]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance302" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="301" unique_id=723877953]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance303" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="302" unique_id=778309087]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance304" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="303" unique_id=915130243]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance305" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="304" unique_id=1458394827]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance306" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="305" unique_id=1956974468]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance307" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="306" unique_id=1856789133]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance308" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="307" unique_id=1496543015]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance309" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="308" unique_id=506305724]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance310" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="309" unique_id=1540028960]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance311" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="310" unique_id=1717572343]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance312" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="311" unique_id=1737010312]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance313" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="312" unique_id=1674200579]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance314" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="313" unique_id=1859513915]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance315" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="314" unique_id=1806779009]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance316" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="315" unique_id=1075921225]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance317" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="316" unique_id=144891200]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance318" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="317" unique_id=653282385]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance319" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="318" unique_id=961130401]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance320" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="319" unique_id=2133566482]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance321" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="320" unique_id=1407439371]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance322" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="321" unique_id=1347481377]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance323" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="322" unique_id=1357425893]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance324" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="323" unique_id=1819076022]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance325" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="324" unique_id=2000086391]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance326" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="325" unique_id=858906715]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance327" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="326" unique_id=2138606851]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance328" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="327" unique_id=1942213448]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance329" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="328" unique_id=168058991]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance330" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="329" unique_id=1280021377]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance331" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="330" unique_id=2032762865]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance332" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="331" unique_id=1545231414]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance333" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="332" unique_id=276397976]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance334" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="333" unique_id=1390057397]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance335" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="334" unique_id=1300833002]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance336" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="335" unique_id=1840776309]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance337" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="336" unique_id=83272156]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance338" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="337" unique_id=1183642934]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance339" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="338" unique_id=1306153626]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance340" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="339" unique_id=614213177]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance341" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="340" unique_id=1966829930]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance342" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="341" unique_id=1841407613]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance343" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="342" unique_id=35933556]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance344" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="343" unique_id=690564292]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance345" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="344" unique_id=1625307017]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance346" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="345" unique_id=146740605]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance347" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="346" unique_id=353365837]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance348" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="347" unique_id=1578748074]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance349" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="348" unique_id=1177476885]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance350" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="349" unique_id=846924067]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance351" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="350" unique_id=1417840743]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance352" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="351" unique_id=1317275761]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance353" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="352" unique_id=247134280]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance354" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="353" unique_id=2119144030]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance355" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="354" unique_id=1594527758]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance356" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="355" unique_id=1904113620]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance357" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="356" unique_id=869251453]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance358" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="357" unique_id=1768439346]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance359" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="358" unique_id=973619801]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance360" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="359" unique_id=1506995327]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance361" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="360" unique_id=330108275]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance362" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="361" unique_id=545067227]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance363" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="362" unique_id=528508072]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance364" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="363" unique_id=1733702227]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance365" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="364" unique_id=59662524]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance366" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="365" unique_id=455362733]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance367" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="366" unique_id=829723497]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance368" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="367" unique_id=1055612269]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance369" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="368" unique_id=231518898]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance370" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="369" unique_id=1739172623]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance371" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="370" unique_id=1723257544]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance372" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="371" unique_id=1259799870]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance373" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="372" unique_id=2019825768]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance374" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="373" unique_id=2039968747]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance375" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="374" unique_id=257501640]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance376" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="375" unique_id=260109586]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance377" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="376" unique_id=1292228753]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance378" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="377" unique_id=28888845]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance379" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="378" unique_id=1691794582]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance380" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="379" unique_id=1490980367]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance381" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="380" unique_id=826001169]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance382" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="381" unique_id=1598543994]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance383" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="382" unique_id=1983104781]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance384" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="383" unique_id=443940035]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance385" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="384" unique_id=1410869863]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance386" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="385" unique_id=519213378]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance387" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="386" unique_id=1209022162]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance388" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="387" unique_id=1565734902]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance389" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="388" unique_id=301180456]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance390" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="389" unique_id=815979574]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance391" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="390" unique_id=1872279822]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance392" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="391" unique_id=1685789539]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance393" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="392" unique_id=29704520]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance394" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="393" unique_id=302839501]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance395" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="394" unique_id=258685291]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance396" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="395" unique_id=897221312]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance397" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="396" unique_id=1203892936]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance398" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="397" unique_id=45955299]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance399" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="398" unique_id=884698820]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance400" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="399" unique_id=1265463084]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance401" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="400" unique_id=160320555]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance402" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="401" unique_id=1628254790]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance403" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="402" unique_id=2016664229]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance404" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="403" unique_id=2050598093]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance405" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="404" unique_id=1412225821]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance406" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="405" unique_id=1484717645]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance407" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="406" unique_id=398361503]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance408" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="407" unique_id=853447363]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance409" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="408" unique_id=455540941]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance410" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="409" unique_id=193806713]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance411" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="410" unique_id=2136789799]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance412" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="411" unique_id=112246998]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance413" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="412" unique_id=1709205734]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance414" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="413" unique_id=954908011]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance415" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="414" unique_id=2095753911]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance416" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="415" unique_id=65576541]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance417" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="416" unique_id=1881620400]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance418" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="417" unique_id=1439201471]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance419" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="418" unique_id=846820846]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance420" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="419" unique_id=1151358722]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance421" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="420" unique_id=98957216]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance422" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="421" unique_id=58396666]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance423" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="422" unique_id=1934000740]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance424" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="423" unique_id=1187929878]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance425" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="424" unique_id=2106220074]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance426" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="425" unique_id=1795433933]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance427" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="426" unique_id=667082120]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance428" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="427" unique_id=593558464]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance429" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="428" unique_id=193257285]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance430" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="429" unique_id=2100136114]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance431" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="430" unique_id=439236781]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance432" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="431" unique_id=1576909994]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance433" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="432" unique_id=508094517]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance434" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="433" unique_id=1703280804]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance435" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="434" unique_id=394610961]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance436" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="435" unique_id=1352950527]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance437" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="436" unique_id=1970324848]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance438" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="437" unique_id=121794142]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance439" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="438" unique_id=81067977]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance440" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="439" unique_id=1155342196]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance441" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="440" unique_id=818639124]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance442" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="441" unique_id=1976911221]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance443" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="442" unique_id=1372643152]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance444" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="443" unique_id=1745525994]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance445" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="444" unique_id=731353511]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance446" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="445" unique_id=1231070511]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance447" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="446" unique_id=857092569]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance448" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="447" unique_id=1627229759]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="GN Instance449" parent="testLargeCoinPile/BézierCurve_001" parent_id_path=PackedInt32Array(242379427, 492990092) index="448" unique_id=705128832]
+material_overlay = SubResource("StandardMaterial3D_dq6ki")
+
+[node name="Cylinder" parent="testLargeCoinPile" index="1" unique_id=963529768]
+material_overlay = SubResource("StandardMaterial3D_maym8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="testLargeCoinPile" unique_id=1129636161]
+transform = Transform3D(1.1111112, 0, 0, 0, 1.1111112, 0, 0, 0, 1.1111112, 0, -0.7605701, 2.714854)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="testLargeCoinPile/StaticBody3D" unique_id=748624901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.11956406, 0.77138567, -1.3820667)
+shape = SubResource("BoxShape3D_lxyyf")
+
+[editable path="testLargeCoinPile"]

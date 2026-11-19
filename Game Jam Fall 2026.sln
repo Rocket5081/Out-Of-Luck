@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Jam Fall 2026", "Game Jam Fall 2026.csproj", "{C0732E39-E940-403A-A02F-E7D5091AD9E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{C0732E39-E940-403A-A02F-E7D5091AD9E1}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

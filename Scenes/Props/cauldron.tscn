@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dulmo3u3m4r4j"]
+
+[ext_resource type="PackedScene" uid="uid://cj68rg13hpw8n" path="res://Assets/Props/Cauldron.glb" id="1_mtbcm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mtbcm"]
+cull_mode = 1
+shading_mode = 0
+albedo_color = Color(0, 0, 0, 1)
+grow = true
+grow_amount = 0.05
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
+size = Vector3(2.95, 2.7, 2.95)
+
+[node name="Cauldron" type="Node3D" unique_id=929917558]
+
+[node name="Cauldron2" parent="." unique_id=555508592 instance=ExtResource("1_mtbcm")]
+
+[node name="Cauldron" parent="Cauldron2" index="0" unique_id=1316763599]
+material_overlay = SubResource("StandardMaterial3D_mtbcm")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cauldron2" unique_id=1616276963]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cauldron2/StaticBody3D" unique_id=1505918108]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13131332, 0)
+shape = SubResource("BoxShape3D_lxyyf")
+
+[editable path="Cauldron2"]

@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://hfw13xvliiti"]
+
+[ext_resource type="PackedScene" uid="uid://b65k5d1u43bt5" path="res://Assets/Floors/SouthWestFloor.glb" id="1_jn678"]
+[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_q00x5"]
+[ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="2_oig28"]
+[ext_resource type="Material" uid="uid://cs3h31u3gecqf" path="res://Assets/Floors/BasicFloor.tres" id="2_q00x5"]
+[ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="3_q00x5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e4fsj"]
+size = Vector3(150, 0.5, 150)
+
+[node name="SouthWestItems" type="Node3D" unique_id=915644427]
+script = ExtResource("1_q00x5")
+BoundsSize = Vector3(150, 20, 150)
+BoundsOffset = Vector3(0, 10, 0)
+
+[node name="SouthWestFloor" parent="." unique_id=1872762239 instance=ExtResource("1_jn678")]
+
+[node name="Floor" parent="SouthWestFloor" index="0" unique_id=887715490]
+surface_material_override/0 = ExtResource("2_q00x5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="SouthWestFloor" unique_id=1236733503]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SouthWestFloor/StaticBody3D" unique_id=1601123343]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, -0.25, -25)
+shape = SubResource("BoxShape3D_e4fsj")
+
+[node name="Walls" type="Node3D" parent="." unique_id=343766850]
+
+[node name="Wall" parent="Walls" unique_id=2103386227 instance=ExtResource("2_oig28")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 10, 50)
+
+[node name="Wall3" parent="Walls" unique_id=1900408386 instance=ExtResource("2_oig28")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -50, 10, 0)
+
+[node name="HalfWall" parent="Walls" unique_id=1509238926 instance=ExtResource("3_q00x5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 75, 10, -10)
+
+[node name="HalfWall4" parent="Walls" unique_id=1929878778 instance=ExtResource("3_q00x5")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 75, 10, 10)
+
+[node name="HalfWall5" parent="Walls" unique_id=1421557706 instance=ExtResource("3_q00x5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 10, -50)
+
+[node name="HalfWall6" parent="Walls" unique_id=1820044886 instance=ExtResource("3_q00x5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 10, -50)
+
+[node name="HalfWall7" parent="Walls" unique_id=492263508 instance=ExtResource("3_q00x5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10, 10, -75)
+
+[node name="HalfWall8" parent="Walls" unique_id=297097854 instance=ExtResource("3_q00x5")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 10, 10, -75)
+
+[node name="HalfWall2" parent="Walls" unique_id=1899617161 instance=ExtResource("3_q00x5")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 50, 10, -35)
+
+[node name="HalfWall3" parent="Walls" unique_id=550091766 instance=ExtResource("3_q00x5")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 50, 10, 35)
+
+[node name="Exits" type="Node3D" parent="." unique_id=1071887619]
+
+[node name="Exit_S" type="Marker3D" parent="Exits" unique_id=1986419128]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -100)
+
+[node name="Exit_W" type="Marker3D" parent="Exits" unique_id=412399822]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, 0)
+
+[editable path="SouthWestFloor"]

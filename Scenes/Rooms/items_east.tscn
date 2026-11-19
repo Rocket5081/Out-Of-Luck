@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://c3lod8tgcw2ho"]
+
+[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_iu0y1"]
+[ext_resource type="PackedScene" uid="uid://bkwrco0bvx8p7" path="res://Assets/Floors/EastDoorFloor.glb" id="1_nxjsq"]
+[ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="2_7aodv"]
+[ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="3_n7xm3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
+size = Vector3(150, 0.5, 100)
+
+[node name="ItemsEast" type="Node3D" unique_id=1762984895]
+script = ExtResource("1_iu0y1")
+Type = 2
+BoundsSize = Vector3(150, 20, 100)
+BoundsOffset = Vector3(0, 10, 0)
+
+[node name="EastDoorFloor" parent="." unique_id=801674976 instance=ExtResource("1_nxjsq")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="EastDoorFloor" unique_id=866391152]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EastDoorFloor/StaticBody3D" unique_id=1056553720]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, -0.25, 0)
+shape = SubResource("BoxShape3D_lxyyf")
+
+[node name="Walls" type="Node3D" parent="." unique_id=799013785]
+
+[node name="Wall" parent="Walls" unique_id=2103386227 instance=ExtResource("2_7aodv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, -50)
+
+[node name="Wall2" parent="Walls" unique_id=300882464 instance=ExtResource("2_7aodv")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 10, 50)
+
+[node name="Wall3" parent="Walls" unique_id=1837983559 instance=ExtResource("2_7aodv")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 50, 10, 0)
+
+[node name="HalfWall" parent="Walls" unique_id=1509238926 instance=ExtResource("3_n7xm3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75, 10, -10)
+
+[node name="HalfWall4" parent="Walls" unique_id=2085269823 instance=ExtResource("3_n7xm3")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -75, 10, 10)
+
+[node name="HalfWall2" parent="Walls" unique_id=113617474 instance=ExtResource("3_n7xm3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -50, 10, -35)
+
+[node name="HalfWall3" parent="Walls" unique_id=72023769 instance=ExtResource("3_n7xm3")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -50, 10, 35)
+
+[node name="Exits" type="Node3D" parent="." unique_id=1842816103]
+
+[node name="Exit_E" type="Marker3D" parent="Exits" unique_id=1831685401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100, 0, 0)

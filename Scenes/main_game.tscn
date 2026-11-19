@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://bsrxt306i1trw"]
+
+[ext_resource type="Script" uid="uid://btohy3b43sjbp" path="res://Scripts/DungeonGenerator.cs" id="1_qnvbm"]
+[ext_resource type="PackedScene" uid="uid://ed21bk62i7uv" path="res://Scenes/Rooms/starter_room.tscn" id="2_vvhy6"]
+[ext_resource type="PackedScene" uid="uid://cr1bhqfaeoya7" path="res://Scenes/Rooms/south_boss.tscn" id="3_ns551"]
+[ext_resource type="PackedScene" uid="uid://bo4ugj3ok38pf" path="res://Scenes/Rooms/CombatRooms/4_way_combat_room.tscn" id="4_0bxlt"]
+[ext_resource type="PackedScene" uid="uid://d056qjifp2l6v" path="res://Scenes/Rooms/CombatRooms/combat_east.tscn" id="5_58qbg"]
+[ext_resource type="PackedScene" uid="uid://wfy64hvtqa2a" path="res://Scenes/Rooms/CombatRooms/combat_west.tscn" id="6_gnsnf"]
+[ext_resource type="PackedScene" uid="uid://bdi3v5tuyoa8f" path="res://Scenes/Rooms/CombatRooms/north_east_combat.tscn" id="7_06qyo"]
+[ext_resource type="PackedScene" uid="uid://dhp668wpgnbv2" path="res://Scenes/Rooms/CombatRooms/north_south_combat.tscn" id="8_3bgrf"]
+[ext_resource type="PackedScene" uid="uid://p7vo524ug22j" path="res://Scenes/Rooms/CombatRooms/north_west_combat.tscn" id="9_vt8ts"]
+[ext_resource type="PackedScene" uid="uid://doshvyhecoiv1" path="res://Scenes/Rooms/CombatRooms/south_combat.tscn" id="10_bbjgr"]
+[ext_resource type="PackedScene" uid="uid://dajp10yyd2eqq" path="res://Scenes/Rooms/CombatRooms/south_east_combat.tscn" id="11_jbexl"]
+[ext_resource type="PackedScene" uid="uid://m3h2hygsee74" path="res://Scenes/Rooms/CombatRooms/south_west_combat.tscn" id="12_sgmg2"]
+[ext_resource type="PackedScene" uid="uid://do1rrj05thmia" path="res://Scenes/Rooms/CombatRooms/north_east_west_combat.tscn" id="13_0bxlt"]
+[ext_resource type="PackedScene" uid="uid://c3lod8tgcw2ho" path="res://Scenes/Rooms/items_east.tscn" id="13_g6spl"]
+[ext_resource type="PackedScene" uid="uid://bi6gg3rjb0o0b" path="res://Scenes/Rooms/CombatRooms/north_south_east_combat.tscn" id="14_58qbg"]
+[ext_resource type="PackedScene" uid="uid://38gumu2xlkkc" path="res://Scenes/Rooms/items_west.tscn" id="14_q6b2w"]
+[ext_resource type="PackedScene" uid="uid://brkn87nnwliuf" path="res://Scenes/Rooms/CombatRooms/north_south_west_combat.tscn" id="15_gnsnf"]
+[ext_resource type="PackedScene" uid="uid://bospu7xjmp4tx" path="res://Scenes/Rooms/north_east_items.tscn" id="15_nkab7"]
+[ext_resource type="PackedScene" uid="uid://bef6eixn6iw57" path="res://Scenes/Rooms/CombatRooms/south_east_west_combat.tscn" id="16_06qyo"]
+[ext_resource type="PackedScene" uid="uid://rcuum112ip0i" path="res://Scenes/Rooms/north_south_items.tscn" id="16_e2wre"]
+[ext_resource type="PackedScene" uid="uid://cshubsnxgv01j" path="res://Scenes/Rooms/north_west_items.tscn" id="17_evlxa"]
+[ext_resource type="PackedScene" uid="uid://dh61fvvq06guu" path="res://Scenes/Rooms/CombatRooms/north_combats.tscn" id="17_gnsnf"]
+[ext_resource type="PackedScene" uid="uid://blud31tv7p7j" path="res://Scenes/Rooms/south_east_items.tscn" id="18_smxg7"]
+[ext_resource type="PackedScene" uid="uid://c3brt4i35vmf3" path="res://Scenes/Rooms/south_items.tscn" id="19_7oxt3"]
+[ext_resource type="PackedScene" uid="uid://hfw13xvliiti" path="res://Scenes/Rooms/south_west_items.tscn" id="20_n28rm"]
+
+[sub_resource type="Gradient" id="Gradient_myjrc"]
+offsets = PackedFloat32Array(0.5236486, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.16078432, 1, 0, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_56hv8"]
+noise_type = 0
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_yvmvm"]
+noise = SubResource("FastNoiseLite_56hv8")
+color_ramp = SubResource("Gradient_myjrc")
+seamless = true
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8sekm"]
+sky_top_color = Color(0, 0.28225502, 0.103670634, 1)
+sky_horizon_color = Color(0.10980392, 0.1882353, 0, 1)
+sky_energy_multiplier = 0.8
+sky_cover = SubResource("NoiseTexture2D_yvmvm")
+ground_bottom_color = Color(0.10980392, 0.1882353, 0, 1)
+ground_horizon_color = Color(0.10980392, 0.1882353, 0, 1)
+ground_curve = 0.13454348
+sun_angle_max = 62.88
+
+[sub_resource type="Sky" id="Sky_rylvo"]
+sky_material = SubResource("ProceduralSkyMaterial_8sekm")
+
+[sub_resource type="Environment" id="Environment_lxyyf"]
+background_mode = 2
+sky = SubResource("Sky_rylvo")
+
+[node name="MainGame" type="Node3D" unique_id=96631860]
+
+[node name="DungeonGenerator" type="Node3D" parent="." unique_id=753068916]
+script = ExtResource("1_qnvbm")
+StartRoom = ExtResource("2_vvhy6")
+BossRoom = ExtResource("3_ns551")
+CombatRooms = Array[PackedScene]([ExtResource("4_0bxlt"), ExtResource("5_58qbg"), ExtResource("6_gnsnf"), ExtResource("17_gnsnf"), ExtResource("7_06qyo"), ExtResource("13_0bxlt"), ExtResource("8_3bgrf"), ExtResource("14_58qbg"), ExtResource("15_gnsnf"), ExtResource("9_vt8ts"), ExtResource("10_bbjgr"), ExtResource("11_jbexl"), ExtResource("16_06qyo"), ExtResource("12_sgmg2")])
+ItemRooms = Array[PackedScene]([ExtResource("13_g6spl"), ExtResource("14_q6b2w"), ExtResource("15_nkab7"), ExtResource("16_e2wre"), ExtResource("17_evlxa"), ExtResource("18_smxg7"), ExtResource("19_7oxt3"), ExtResource("20_n28rm")])
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=2101860971]
+environment = SubResource("Environment_lxyyf")
