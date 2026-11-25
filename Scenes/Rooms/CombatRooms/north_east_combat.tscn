@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bdi3v5tuyoa8f"]
 
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_6sokt"]
 [ext_resource type="PackedScene" uid="uid://bhmuvhvam0uwh" path="res://Assets/Floors/NorthEastFloor.glb" id="1_ewgbw"]
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_ulp4g"]
 [ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="2_2jbtc"]
 [ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="3_kb82h"]
 [ext_resource type="PackedScene" uid="uid://cdh3t1ru63lh5" path="res://Scenes/Props/small_coin_pile.tscn" id="5_0053m"]
@@ -15,8 +15,12 @@ polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(6, 5, 3), PackedInt32Arr
 [sub_resource type="BoxShape3D" id="BoxShape3D_7a433"]
 size = Vector3(150, 0.5, 150)
 
-[node name="NorthEastCombat" type="Node3D" unique_id=875518985]
-script = ExtResource("1_6sokt")
+[sub_resource type="BoxShape3D" id="BoxShape3D_ulp4g"]
+size = Vector3(100, 20, 100)
+
+[node name="NorthEastCombat" type="Node3D" unique_id=875518985 node_paths=PackedStringArray("EnemyTrigger")]
+script = ExtResource("1_ulp4g")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
 BoundsSize = Vector3(150, 20, 150)
 BoundsOffset = Vector3(0, 10, 0)
@@ -131,3 +135,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.289149, 1.4659617, -26.904
 
 [node name="Cauldron4" parent="NavigationRegion3D/Props" unique_id=1865706118 instance=ExtResource("7_8ouot")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.289149, 1.4659617, -23.26924)
+
+[node name="EnemyTrigger" type="Area3D" parent="." unique_id=1857591292]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=1648538876]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
+shape = SubResource("BoxShape3D_ulp4g")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]

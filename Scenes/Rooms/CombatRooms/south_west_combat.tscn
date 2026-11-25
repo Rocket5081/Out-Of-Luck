@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://m3h2hygsee74"]
 
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_0a0ws"]
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_0a0ws"]
 [ext_resource type="PackedScene" uid="uid://b65k5d1u43bt5" path="res://Assets/Floors/SouthWestFloor.glb" id="2_nevci"]
 [ext_resource type="Material" uid="uid://cs3h31u3gecqf" path="res://Assets/Floors/BasicFloor.tres" id="3_0s5q2"]
 [ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="4_6s4e0"]
@@ -16,11 +16,13 @@ polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1), PackedInt32Arr
 [sub_resource type="BoxShape3D" id="BoxShape3D_e4fsj"]
 size = Vector3(150, 0.5, 150)
 
-[node name="SouthWestCombat" type="Node3D" unique_id=915644427]
+[sub_resource type="BoxShape3D" id="BoxShape3D_0a0ws"]
+size = Vector3(100, 20, 100)
+
+[node name="SouthWestCombat" type="Node3D" unique_id=915644427 node_paths=PackedStringArray("EnemyTrigger")]
 script = ExtResource("1_0a0ws")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
-BoundsSize = Vector3(150, 20, 150)
-BoundsOffset = Vector3(0, 10, 0)
 
 [node name="Exits" type="Node3D" parent="." unique_id=1071887619]
 
@@ -144,5 +146,13 @@ transform = Transform3D(0.81443036, 0, 0.58026123, 0, 1, 0, -0.58026123, 0, 0.81
 
 [node name="Cauldron12" parent="NavigationRegion3D/Props" unique_id=1509313593 instance=ExtResource("8_gx752")]
 transform = Transform3D(0.81443036, 0, 0.58026123, 0, 1, 0, -0.58026123, 0, 0.81443036, -1.0098562, 1.4659617, 35.15705)
+
+[node name="EnemyTrigger" type="Area3D" parent="." unique_id=609735634]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=862323527]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
+shape = SubResource("BoxShape3D_0a0ws")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]
 
 [editable path="NavigationRegion3D/SouthWestFloor"]

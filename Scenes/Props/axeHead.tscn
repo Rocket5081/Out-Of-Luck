@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bpo1vl8dwreo3"]
+
+[ext_resource type="PackedScene" uid="uid://d3sj805w2sur3" path="res://Assets/Props/Clover.glb" id="1_hpnvb"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_lxyyf"]
+height = 0.15
+radius = 0.95
+
+[node name="AxeHead" type="CharacterBody3D" unique_id=1931770867]
+
+[node name="Clover2" parent="." unique_id=1040167803 instance=ExtResource("1_hpnvb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2079442774]
+shape = SubResource("CylinderShape3D_lxyyf")

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://p7vo524ug22j"]
 
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_37eoi"]
 [ext_resource type="PackedScene" uid="uid://btdsva7aamb50" path="res://Assets/Floors/NorthWestFloor.glb" id="1_pk3og"]
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_re5kk"]
 [ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="2_re5kk"]
 [ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="3_qqk1y"]
 [ext_resource type="PackedScene" uid="uid://cdh3t1ru63lh5" path="res://Scenes/Props/small_coin_pile.tscn" id="5_a8tae"]
@@ -15,8 +15,12 @@ polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(5, 4, 3), PackedInt32Arr
 [sub_resource type="BoxShape3D" id="BoxShape3D_v2hbu"]
 size = Vector3(150, 0.5, 150)
 
-[node name="NorthWestCombat" type="Node3D" unique_id=875518985]
-script = ExtResource("1_re5kk")
+[sub_resource type="BoxShape3D" id="BoxShape3D_37eoi"]
+size = Vector3(100, 20, 100)
+
+[node name="NorthWestCombat" type="Node3D" unique_id=875518985 node_paths=PackedStringArray("EnemyTrigger")]
+script = ExtResource("1_37eoi")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
 BoundsSize = Vector3(150, 20, 150)
 
@@ -130,3 +134,11 @@ transform = Transform3D(0.03080597, 0, 0.99952537, 0, 1, 0, -0.99952537, 0, 0.03
 
 [node name="Cauldron4" parent="NavigationRegion3D/Props" unique_id=550696438 instance=ExtResource("7_0mkky")]
 transform = Transform3D(0.03080597, 0, 0.99952537, 0, 1, 0, -0.99952537, 0, 0.03080597, -25.908484, 1.4659617, -13.903132)
+
+[node name="EnemyTrigger" type="Area3D" parent="." unique_id=1389408769]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=1568381904]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
+shape = SubResource("BoxShape3D_37eoi")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]

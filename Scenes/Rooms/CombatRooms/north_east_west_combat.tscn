@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://do1rrj05thmia"]
 
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_hdddj"]
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_gorxc"]
 [ext_resource type="PackedScene" uid="uid://c85ihvvysw4ah" path="res://Assets/Floors/NorthEastWestFloor.glb" id="2_iwxls"]
 [ext_resource type="Material" uid="uid://cs3h31u3gecqf" path="res://Assets/Floors/BasicFloor.tres" id="3_mog4b"]
 [ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="4_b73oi"]
@@ -16,8 +16,12 @@ polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1), PackedInt32Arr
 [sub_resource type="BoxShape3D" id="BoxShape3D_4u2nt"]
 size = Vector3(200, 0.5, 150)
 
-[node name="NorthEastWestCombat" type="Node3D" unique_id=1730613365]
-script = ExtResource("1_hdddj")
+[sub_resource type="BoxShape3D" id="BoxShape3D_gorxc"]
+size = Vector3(100, 20, 100)
+
+[node name="NorthEastWestCombat" type="Node3D" unique_id=1730613365 node_paths=PackedStringArray("EnemyTrigger")]
+script = ExtResource("1_gorxc")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
 BoundsSize = Vector3(200, 20, 150)
 
@@ -146,5 +150,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.289149, 1.4659617, -26.904
 
 [node name="Cauldron4" parent="NavigationRegion3D/Props" unique_id=1376182569 instance=ExtResource("8_4u2nt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.289149, 1.4659617, -23.26924)
+
+[node name="EnemyTrigger" type="Area3D" parent="." unique_id=923537752]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=945750282]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
+shape = SubResource("BoxShape3D_gorxc")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]
 
 [editable path="NavigationRegion3D/NorthEastWestFloor"]

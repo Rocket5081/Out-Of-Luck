@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://wfy64hvtqa2a"]
 
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_dxx3s"]
 [ext_resource type="PackedScene" uid="uid://tlf76ojxdalk" path="res://Assets/Floors/WestDoorFloor.glb" id="1_f7d8b"]
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_j7v7x"]
 [ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="2_pxbu6"]
 [ext_resource type="PackedScene" uid="uid://dr45g8pl8rcd" path="res://Scenes/Rooms/Walls/HalfWall.tscn" id="3_j4dog"]
 [ext_resource type="PackedScene" uid="uid://cdh3t1ru63lh5" path="res://Scenes/Props/small_coin_pile.tscn" id="5_haluv"]
@@ -15,8 +15,12 @@ polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(6, 5, 3), PackedInt32Arr
 [sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
 size = Vector3(150, 0.5, 100)
 
-[node name="CombatWest" type="Node3D" unique_id=1762984895]
-script = ExtResource("1_dxx3s")
+[sub_resource type="BoxShape3D" id="BoxShape3D_j7v7x"]
+size = Vector3(100, 20, 100)
+
+[node name="CombatWest" type="Node3D" unique_id=1762984895 node_paths=PackedStringArray("EnemyTrigger")]
+script = ExtResource("1_j7v7x")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
 BoundsSize = Vector3(150, 20, 100)
 BoundsOffset = Vector3(0, 10, 0)
@@ -128,3 +132,11 @@ transform = Transform3D(0.8144303, 0, 0.58026123, 0, 1, 0, -0.58026123, 0, 0.814
 
 [node name="Cauldron12" parent="NavigationRegion3D/Props" unique_id=1488525846 instance=ExtResource("7_ayhvq")]
 transform = Transform3D(0.8144303, 0, 0.58026123, 0, 1, 0, -0.58026123, 0, 0.8144303, -1.923645, 1.4659617, 44.862137)
+
+[node name="EnemyTrigger" type="Area3D" parent="." unique_id=638060107]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=1890947069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
+shape = SubResource("BoxShape3D_j7v7x")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]

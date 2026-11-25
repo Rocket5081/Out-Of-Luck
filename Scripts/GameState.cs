@@ -3,7 +3,7 @@ using System;
 
 public static class GameState{
 
-    public static int RoomsEntered;
-    public static void Reset() => RoomsEntered = 0;
+    public static int NumOfRooms;
+    public static void Reset() => NumOfRooms = 0;
 
 }

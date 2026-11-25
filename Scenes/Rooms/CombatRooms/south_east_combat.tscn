@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dajp10yyd2eqq"]
 
-[ext_resource type="Script" uid="uid://b4c65ccm0ndq8" path="res://Scripts/Room.cs" id="1_742g5"]
+[ext_resource type="Script" uid="uid://b4qspe6kgxfja" path="res://Scripts/CombatRoom.cs" id="1_742g5"]
 [ext_resource type="PackedScene" uid="uid://cs4nw02d0y1ft" path="res://Assets/Floors/SouthEastFloor.glb" id="2_uriyw"]
 [ext_resource type="Material" uid="uid://cs3h31u3gecqf" path="res://Assets/Floors/BasicFloor.tres" id="3_v3c03"]
 [ext_resource type="PackedScene" uid="uid://bnifhqec427ng" path="res://Scenes/Rooms/Walls/wall.tscn" id="4_aob15"]
@@ -19,8 +19,9 @@ size = Vector3(150, 0.5, 150)
 [sub_resource type="BoxShape3D" id="BoxShape3D_lxyyf"]
 size = Vector3(100, 20, 100)
 
-[node name="SouthEastCombat" type="Node3D" unique_id=1537948745]
+[node name="SouthEastCombat" type="Node3D" unique_id=1537948745 node_paths=PackedStringArray("EnemyTrigger")]
 script = ExtResource("1_742g5")
+EnemyTrigger = NodePath("EnemyTrigger")
 Type = 1
 BoundsSize = Vector3(150, 20, 150)
 BoundsOffset = Vector3(0, 10, 0)
@@ -156,5 +157,7 @@ transform = Transform3D(0.8144303, 0, 0.58026123, 0, 1, 0, -0.58026123, 0, 0.814
 [node name="CollisionShape3D" type="CollisionShape3D" parent="EnemyTrigger" unique_id=436904718]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.0165, 0)
 shape = SubResource("BoxShape3D_lxyyf")
+
+[connection signal="body_entered" from="EnemyTrigger" to="." method="OnBodyEntered"]
 
 [editable path="NavigationRegion3D/SouthEastFloor"]
